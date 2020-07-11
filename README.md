@@ -3,7 +3,7 @@ A Vision-based Social Distancing and Critical Density Detection System for COVID
 
 <img src="images/osu-logo.jpg" width="300">
 
-Developed by [Control and Intelligent Transportation Research (CITR) Lab](citr.osu.edu) at The Ohio State University.
+Developed by [Control and Intelligent Transportation Research (CITR) Lab](http://citr.osu.edu/) at The Ohio State University.
 
 Paper: [arXiv preprint](https://arxiv.org/abs/2007.03578)
 
