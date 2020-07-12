@@ -26,6 +26,15 @@ Illustration of pedestrian detection and social distancing monitoring.
 
 ![scenario](images/mall.gif)
 
+## Camera calibration
+
+NYC Grand Central terminal: We found the floor plan of the building and calibrated the camera by picking landmarks. We provide the transformation matrix in 
+calibration/grand_central_matrix_cam2world.txt
+
+Oxford town center: The original dataset provides the transformation matrix. We added it here also calibration/oxford_town_matrix_cam2world.txt
+
+Mall: We could not found the transformation matrix or the floor plan of this dataset. Instead, we first estimated the size of a reference object in the image by comparing it with the width of detected  pedestrians  and  then  utilized  the  key  points  of  the reference object to calculate the perspective transformation. We provide this transformation matrix in calibration/mall_matrix_cam2world.txt
+
 ## Critical Density
 
 Keeping the social density under the critical value will keep the probability of social distancing violation occurrence near zero with the linear regression assumption.
