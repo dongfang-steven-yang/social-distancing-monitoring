@@ -7,7 +7,9 @@ Developed by Dongfang Yang and Ekim Yurtsever at [Control and Intelligent Transp
 
 Paper: [arXiv preprint](https://arxiv.org/abs/2007.03578)
 
-**Note**: We are still in the process of finalizing the repository. The complete version will be released soon!
+**Updata Log:**
+- **2020.09.15**: We have added the instructions for running the pedestrian detection and the data analysis. Please see the section of 'Getting Started'.
+- **2020.07.10**: We are still in the process of finalizing the repository. The complete version will be released soon!
 
 ## System Overview
 
