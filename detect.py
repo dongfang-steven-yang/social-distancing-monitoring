@@ -71,7 +71,6 @@ def main(dataset, data_time, detector):
         if i_frame / frame_skip < 20:
             vis = True
         else:
-            break
             vis = False
 
         # counting process time
@@ -163,8 +162,8 @@ def main(dataset, data_time, detector):
 if __name__ == '__main__':
     data_time = 'test'
     # data_time = datetime.now().strftime("%Y%m%d_%H%M%S")
-    # datasets = ['oxford_town', 'grand_central', 'mall']
-    datasets = ['oxford_town']
+    datasets = ['oxford_town', 'grand_central', 'mall']
+    # datasets = ['oxford_town']
 
     for dataset in datasets:
         print('=========== %s ===========' % dataset)

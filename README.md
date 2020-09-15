@@ -40,6 +40,31 @@ Keeping the social density under the critical value will keep the probability of
 
 ![scenario](images/critical_density.png)
 
+## Getting Started
+
+### 1. Environment Config
+The program was developed based on `python 3.7` with `pytorch 1.5`.
+We highly recommend to use `conda`. After you have created a new conda environment, use the following command to install pytorch:
+```shell
+conda install pytorch==1.5.0 torchvision==0.6.0 cudatoolkit=10.1 -c pytorch
+```
+
+You may also need to install the packages specified in `requirements.txt` file if you don't have them.
+
+### 2. Download Dataset
+
+We provide an alternative link for you to download all the datasets: https://drive.google.com/file/d/1G6nZS-EZLrNBC68CRDf-yo2uj3k32j35/view?usp=sharing
+
+Then copy all the files into folder `datasets` in the repository.
+
+### 3. Run Pedestrian Detection
+
+Execute `detect.py` to obtain the detection result. The result will be saved at folder `results` in the repository. Result will be saved as pickle `.p` file for each dataset.
+
+### 4. Run Analysis
+
+Execute `analyze.py` to obtain the analysis result. It will be saved in the same folder `results`.
+
 
 ## TODO Lists
 
@@ -52,24 +77,6 @@ Keeping the social density under the critical value will keep the probability of
 - [ ] Embedded system integration
 - [ ] Camera calibration UI
 
-
-
-<!-- ## Getting Started
-
-(1) Download the video datasets:
-   - Oxford Town Center Dataset: [Download](http://www.robots.ox.ac.uk/ActiveVision/Research/Projects/2009bbenfold_headpose/Datasets/TownCentreXVID.avi)
-   - Mall Dataset
-   - Grand Central Train Station Dataset:
-
-(2) Put the dataset videos into `datasets` folder.
-
-(3) Run `main.py` script.
-
-
-## Issues
-- [ ] Faster/Mask RCNN performs bad on grand central datasets: they cannot detect all pedestrians with a score threshold of 0.7.
-  - Planning to try Yolo-v4 and EfficientDet
-- [ ] Mall dataset only provides individual frames. They claim that the FPS is less than 2, but do not indicate the exact FPS, so I assume the FPS is just 1 FPS -->
 
 ## Contact
 

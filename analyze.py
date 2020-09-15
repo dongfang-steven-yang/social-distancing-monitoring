@@ -14,7 +14,7 @@ dict_dataset_names = {
     'grand_central': 'Train Station Dataset'
 }
 
-path_results = 'results/20200624_125554'  # faster RCNN results
+path_results = 'results/test_faster_rcnn'  # faster RCNN results
 # path_results = 'additional_detectors/yolo_v4_darknet_official/results/result_yolo_v4_darknet_official'
 
 
